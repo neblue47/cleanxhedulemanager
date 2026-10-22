@@ -1,0 +1,41 @@
+{
+  "name": "cleanxhedule-manager-api",
+  "version": "1.0.0",
+  "description": "API RESTful para o Sistema de Higienização de Móveis CleanXhedule Manager (Angola)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/server.js --seed",
+    "test": "jest --runInBand --forceExit",
+    "test:watch": "jest --watch --runInBand"
+  },
+  "keywords": [
+    "cleanxhedule",
+    "angola",
+    "sqlite",
+    "express",
+    "jwt"
+  ],
+  "author": "CleanXhedule Team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-sqlite3-wasm": "^0.8.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

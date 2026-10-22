@@ -1,0 +1,31 @@
+# Ambiente
+.env
+.env.local
+.env.production
+
+# Base de dados (gerada em runtime)
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Dependências
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Cobertura de testes
+coverage/
+
+# Editores
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
